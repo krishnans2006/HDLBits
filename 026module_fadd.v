@@ -1,3 +1,8 @@
+module add1 ( input a, input b, input cin, output sum, output cout );
+    assign sum = a ^ b ^ cin;
+    assign cout = (a & b) | (b & cin) | (a & cin);
+endmodule
+
 module add16 ( input [15:0] a, input [15:0] b, input cin, output [15:0] sum, output cout );
     // Module body
 endmodule
