@@ -7,7 +7,7 @@ module add16 ( input [15:0] a, input [15:0] b, input cin, output [15:0] sum, out
     // Module body
 endmodule
 
-module top_module(
+module top_module (
     input [31:0] a,
     input [31:0] b,
     output [31:0] sum
