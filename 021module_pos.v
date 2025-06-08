@@ -2,7 +2,7 @@ module mod_a ( output, output, input, input, input, input );
     // Module body
 endmodule
 
-module top_module ( 
+module top_module (
     input a, 
     input b, 
     input c,
