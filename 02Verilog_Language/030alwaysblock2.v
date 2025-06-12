@@ -14,6 +14,6 @@ module top_module (
     end
 
     always @ (posedge clk) begin
-        out_always_ff = a ^ b;
+        out_always_ff <= a ^ b;
     end
 endmodule
