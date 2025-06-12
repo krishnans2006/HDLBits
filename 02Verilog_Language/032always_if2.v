@@ -6,7 +6,7 @@ module top_module (
     input      gas_tank_empty,
     output reg keep_driving
 );
-    always @(*) begin
+    always @ (*) begin
         if (cpu_overheated) begin
             shut_off_computer = 1;
         end else begin
@@ -14,7 +14,7 @@ module top_module (
         end
     end
 
-    always @(*) begin
+    always @ (*) begin
         if (~arrived) begin
             keep_driving = ~gas_tank_empty;
         end else begin
