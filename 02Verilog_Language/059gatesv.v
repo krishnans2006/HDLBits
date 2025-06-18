@@ -1,4 +1,4 @@
-module top_module( 
+module top_module (
     input [3:0] in,
     output [2:0] out_both,
     output [3:1] out_any,
